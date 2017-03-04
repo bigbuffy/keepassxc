@@ -45,6 +45,7 @@ set(keepassx_SOURCES
     core/ListDeleter.h
     core/Metadata.cpp
     core/PasswordGenerator.cpp
+    core/PassphraseGenerator.cpp
     core/SignalMultiplexer.cpp
     core/TimeDelta.cpp
     core/TimeInfo.cpp
@@ -94,7 +95,6 @@ set(keepassx_SOURCES
     gui/MessageWidget.cpp
     gui/PasswordEdit.cpp
     gui/PasswordGeneratorWidget.cpp
-    gui/PasswordComboBox.cpp
     gui/SettingsWidget.cpp
     gui/SearchWidget.cpp
     gui/SortFilterHideProxyModel.cpp
